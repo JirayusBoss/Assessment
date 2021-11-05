@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fas {
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+}
+
+.fas:hover {
+  color: #108494;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  padding: 30px 45px;
+  justify-content: space-between;
+  background-color: rgb(49, 49, 49);
+}
+
+.title {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Saira Condensed', sans-serif; */
+
+.slide {
+  background: linear-gradient(45deg, #108494, #bbbbbb, #80bbb8);
+  size: auto 100%;
+  height: 522px;
+}
+
+.iphone {
+  width: 300px;
+  height: auto;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.arrow {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.arrow:hover {
+  color: rgb(49, 49, 49);
+  cursor: pointer;
+}
+
+.products {
+  display: grid;
+  row-gap: 80px;
+  column-gap: 20px;
+  grid-template-columns: repeat(auto-fill, 300px);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(228, 224, 218);
+}
+
+.iphonegold {
+  margin-top: 20px;
+  background: linear-gradient(45deg, rgb(228, 203, 95), rgb(190, 190, 190));
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(88, 88, 88);
+  border-radius: 20px;
+}
+
+.eachproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
